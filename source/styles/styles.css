@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(90deg, #0000FD 0%, #000 100%, #fff 100%);
+}
+
 .nav-link {
     color:rgb(127, 208, 255);
 }
