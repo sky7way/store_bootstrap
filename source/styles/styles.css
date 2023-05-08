@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+:root {
+    --color-text: rgb(127, 208, 255);
+    --color-bgCards: linear-gradient(270deg, #00009e 0%, #000 100%, #fff 100%);
+}
+
 body {
-    background: linear-gradient(90deg, #0000FD 0%, #000 100%, #fff 100%);
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #00009e 0%, #000000 100%, #fff 100%);
 }
 
 .nav-link {
-    color:rgb(127, 208, 255);
+    color: var(--color-text);
 }
 
 .navbar-nav .nav-link.active {
@@ -17,4 +25,18 @@ body {
 .navbar-toggler {
     background-color:rgba(127, 208, 255, 0.604);
     border-color: rgb(152, 152, 188);
+}
+
+.sidebar {
+    color: var(--color-text);
+    background: var( --color-bgCards);
+}
+
+.card {
+    background: var( --color-bgCards);
+}
+
+.card a {
+    text-decoration: none;
+    color: var(--color-text);
 }
