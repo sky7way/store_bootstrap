@@ -41,7 +41,24 @@ body {
     color: var(--color-text);
 }
 
-.slide-text {
+.slide-text,
+.footer-text {
     color: var(--color-text);
     margin: auto auto;
+}
+
+footer {
+    background: var( --color-bgCards);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 755px) {
+    .curousel-indicatirs {
+        display: none;
+    }
 }
