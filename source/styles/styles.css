@@ -40,3 +40,8 @@ body {
     text-decoration: none;
     color: var(--color-text);
 }
+
+.slide-text {
+    color: var(--color-text);
+    margin: auto auto;
+}
